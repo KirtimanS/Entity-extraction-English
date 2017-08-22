@@ -1,7 +1,8 @@
 from jsonWrite import *
 import entity
 
-path_to_json = r'(your path here)'
+#TODO: make path selection user-defined 
+path_to_json = r'your path here'
 
 json_text_list = jsonExtractor(path_to_json)
 
