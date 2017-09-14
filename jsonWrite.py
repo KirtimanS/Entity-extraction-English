@@ -32,7 +32,7 @@ def filterDuplicates(jsons_data):
 
 def writeToFile(NER_dict, path):
     
-    path = '''Add the path to where you want your file to be.'''
+    path = '''Add file path for writing.'''
     with open(path, 'w') as f:
         writer = csv.writer(f)
         for row in NER_dict.items():
