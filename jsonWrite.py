@@ -31,7 +31,8 @@ def filterDuplicates(jsons_data):
     return(NER_dict)
 
 def writeToFile(NER_dict, path):
-
+    
+    path = '''Add the path to where you want your file to be.'''
     with open(path, 'w') as f:
         writer = csv.writer(f)
         for row in NER_dict.items():
